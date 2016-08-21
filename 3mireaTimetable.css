@@ -25,11 +25,12 @@ li>a:visited {
   text-decoration: none;
 }
 
-a {
+
+.mainButton{
   text-decoration: none;
 }
 
-a:visited {
+.mainButton:visited{
   text-decoration:none;
   color:white;
 }
