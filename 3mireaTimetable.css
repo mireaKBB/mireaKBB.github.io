@@ -120,14 +120,16 @@ li:hover {
   height:6em;
 }
 /* отдельные свойства новостей*/
- p.newsPage {
+  p.newsPage {
   padding:1em;
+  font-size:1.3em;
+  font-family: Helvetica, Arial, Sans-serif;
 }
  h1.newsPage {
   padding:0.3em;
   background-color:#A3E6C8;
   font-family: Helvetica, Arial, Sans-serif;
   font-weight: bolder;
-  font-size: 1.2em;
+  font-size: 1.6em;
   margin-top:2em;
 }
