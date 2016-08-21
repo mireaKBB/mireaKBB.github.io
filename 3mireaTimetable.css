@@ -18,11 +18,10 @@ li>a {
 li>a:hover {
   color:white;
   text-decoration: none;
-  /*background-color: red;*/
 }  
 
 li>a:visited {
-  color:black;
+  color:white;
   text-decoration: none;
 }
 
