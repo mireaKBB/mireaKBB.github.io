@@ -10,9 +10,9 @@ li>a {
   text-decoration: none;
   font-weight:bolder;
   display:block;
-  padding:1.1em;
+  padding:0.9em;
   text-align: center;
-  font-size:1.3em;
+  font-size:1.5em;
 }
 
 li>a:hover {
@@ -29,7 +29,7 @@ li>a:visited {
 
 .mainButton{
   text-decoration: none;
-  font-size:1.4em;
+  font-size:1.5em;
 }
 
 .mainButton:visited{
@@ -43,7 +43,7 @@ nav {
   position: relative;
   top:0px;
   margin:0px;
-  height:4.3em;
+  height:4.0em;
   margin-top:-1em;
   
 }
@@ -51,13 +51,13 @@ nav {
   
 ul {
   display:block;
-  min-width:480px;
+  /*min-width:480px;*/
   margin:0px 12%;
   padding-left: 0;
   list-style: none;
   overflow: hidden;
   margin-top:1em;
-  height:4.3em;
+  height:3.9em;
   
 }
 li {
@@ -94,13 +94,13 @@ li:hover {
 /* линия над меню*/
 .line{
   background-color:#218356;
-  height:0.3em;
+  height:0.4em;
 }
 /* Главный светло-зелёный блок*/
 .mainBlock {
   margin:0px 12%;
   background-color: #D4FFEC/*#F5FFFB*/;
-  min-width: 480px;
+  /*min-width:480px;*/
 }
 
 /* свойства таблицы*/
