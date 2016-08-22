@@ -31,7 +31,7 @@
             $newsFile = fopen("NewsFile.txt",'r+') or die("Неполадки на сервере");
             if($signIn)
             {
-            echo <<< _END
+            ?>
             <pre>
             <form class="editform" action="3News.php" method="post">
             <p class="newsPage">Тема новости:</p>
@@ -43,7 +43,7 @@
             <input align="center" type="submit" value="отправить"/>
 
             </form></pre>
-_END;
+            <?php
                 error_reporting(E_ALL ^ E_NOTICE);
                 $NewsText = htmlspecialchars($_POST['NewsText']);
                 $NewsHeaderText = htmlspecialchars($_POST['NewsHeaderText']);
