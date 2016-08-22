@@ -10,7 +10,7 @@
     </head>
     <body>
         <div class="MainHeaderDiv">
-        <h1 class="MainHeader"><a class="mainButton" href="3index.html">KББ-0I-I4</a></h1>
+        <h1 class="MainHeader"><a class="mainButton" href="index.html">KББ-0I-I4</a></h1>
             <div class="line">
             </div>
             <div>   
