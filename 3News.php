@@ -31,19 +31,19 @@
             $newsFile = fopen("NewsFile.txt",'r+') or die("Неполадки на сервере");
             if($signIn)
             {
+            ?>
+            <pre>
+            <form class="editform" action="NewsKBB.php" method="post">
+            <p class="newsPage">Тема новости:</p>
+                <input type="text" name="NewsHeaderText" />
             
-            echo"<pre>";
-            echo"<form class=\"editform\" action=\"NewsKBB.php\" method=\"post\">";
-            echo"<p class=\"newsPage\">Тема новости:</p>";
-            echo"    <input type=\"text\" name=\"NewsHeaderText\" />";
-            
-            echo"<p class=\"newsPage\">Текст новости:</p>";
-            echo"    <textarea rows=\"4\" cols=\"70\" name=\"NewsText\"></textarea>";
+            <p class="newsPage">Текст новости:</p>
+                <textarea rows="4" cols="70" name="NewsText"></textarea>
                     
-            echo"<input align=\"center\" type=\"submit\" value=\"отправить\"/>";
+            <input align="center" type="submit" value="отправить"/>
 
-            echo"</form></pre>";
-
+            </form></pre>
+            <?    
                 error_reporting(E_ALL ^ E_NOTICE);
                 $NewsText = htmlspecialchars($_POST['NewsText']);
                 $NewsHeaderText = htmlspecialchars($_POST['NewsHeaderText']);
