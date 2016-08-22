@@ -54,8 +54,7 @@ _END;
   
             }
             ?>
-            <?php 
-            echo <<< _ENDL
+
             <h1 class="newsPage" style="margin-top:0em">Какая-то новость</h1>
             <p class="newsPage">Текст какой-то новости, занимающий энное количество строк</p>
             <h1 class="newsPage">Какая-то новость</h1>
@@ -83,8 +82,7 @@ _END;
             <h1 class="newsPage">Какая-то новость</h1>
             <p class="newsPage">Текст какой-то новости, занимающий энное количество строк</p>
         </div>
-_ENDL;
-             ?>
+
         
         
      
