@@ -33,7 +33,7 @@
             {
             ?>
             <pre>
-            <form class="editform" action="NewsKBB.php" method="post">
+            <form class="editform" action="3News.php" method="post">
             <p class="newsPage">Тема новости:</p>
                 <input type="text" name="NewsHeaderText" />
             
