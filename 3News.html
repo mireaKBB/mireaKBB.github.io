@@ -47,8 +47,8 @@
                 
                 $NewsText = htmlspecialchars($_POST['NewsText']);
                 $NewsHeaderText = htmlspecialchars($_POST['NewsHeaderText']);
-                $text = "<h1 class=\"newsPage\">" . $NewsHeaderText . "</h1>"; 
-                $text = $text . "<p class=\"newsPage\">" . $NewsText . "</p><!--___________________________-->";
+                $text = "<h1>" . $NewsHeaderText . "</h1>"; 
+                $text = $text . "<p>" . $NewsText . "</p><!--___________________________-->";
                 fseek($newsFile,0,SEEK_END);
                 fwrite($newsFile,$text) or die(" ");
   
