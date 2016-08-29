@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="MTU, MIREA,МТУ, МИРЭА, KBB-01-14, KBB-1-14,КББ-01-14,КББ-01-14">
+        <meta name="description" content="Site for KBB-01-14 students from MTU(MIREA)">
+        <title>KBB-01-14</title>
+        <link rel="stylesheet" type="text/css" href="3mireaTimetable.css">
+    </head>
+    <body>
+        <div class="MainHeaderDiv">
+        <h1 class="MainHeader"><a class="mainButton" href="index.html">KББ-0I-I4</a></h1>
+        <div class="line"></div>
+        <div><nav>
+            <ul>
+            <li><a href="3mireaTimetable.html">Пн</a></li>
+            <li><a href="3mireaTimetable.html">Вт</a></li>
+            <li><a href="3mireaTimetable.html">Ср</a></li>
+            <li><a href="3mireaTimetable.html">Чт</a></li>
+            <li><a href="3News.html">Пт</a></li>
+            </ul>
+        </nav>
+        </div>
+        </div>
+        <div class="mainBlock">
+        <table class="table">
+            <tr>
+                <th class="thead"></th>
+            <th class="thead"></th>
+            <th class="thead"></th>
+            </tr>
+            <tr>
+                <td class="firstSecondColumn">1</td>
+                <td class="firstSecondColumn">9.00-10.35</td>
+                <td class="rowHeight">херня</td>
+</tr>
+            <tr>
+                <td>2</td>
+                <td>10.45-12.20</td>
+                <td class="rowHeight">херня</td>
+</tr>
+            <tr>
+                <td>3</td>
+                <td>12.50-14.25</td>
+                <td class="rowHeight">обед (курица и овощи)</td>
+</tr>
+            <tr>
+                <td>4</td>
+                <td>14.35-16.10</td>
+                <td class="rowHeight">херня</td>
+</tr>
+            <tr>
+                <td>5</td>
+                <td>16.20-17.55</td>
+                <td class="rowHeight">херня</td>
+
+            </tr>
+            
+        </table>
+        </div>
+        
+        
+     
+    </body>
+</html>
