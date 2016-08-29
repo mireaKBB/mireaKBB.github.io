@@ -113,14 +113,20 @@ li:hover {
   font-weight: bolder;
   font-size: 1.5em;
 }
-.124column{
-  width:30%;
+._12column{
+  width:5%;
+  padding:1em;
 }
-.3column{
+._4column{
+  width:5%;
+  padding:2em;
+}
+._3column{
   width:50%;
 }
-.5column{
+._5column{
   width:20%;
+  padding:em;
 }
 .rowHeight{
   height:6em;
