@@ -101,7 +101,7 @@ li:hover {
 .mainBlock {
   margin:0px 12%;
   background-color: #D4FFEC/*#F5FFFB*/;
-  height:80%;
+  height:70%;
   /*min-width:480px;*/
 }
 
@@ -130,7 +130,7 @@ li:hover {
   padding:em;
 }
 .rowHeight{
-  height:6em;
+  height:7em;
 }
 /* отдельные свойства новостей*/
   p.newsPage {
