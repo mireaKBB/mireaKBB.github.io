@@ -113,7 +113,13 @@ li:hover {
   font-weight: bolder;
   font-size: 1.5em;
 }
-.firstSecondColumn{
+.124column{
+  width:30%;
+}
+.3column{
+  width:50%;
+}
+.5column{
   width:20%;
 }
 .rowHeight{
