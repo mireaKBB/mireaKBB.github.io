@@ -15,6 +15,16 @@ li>a {
   font-size:1.8em;
 }
 
+.week_a {
+  color:white;
+  text-decoration: none;
+  font-weight:bolder;
+  display:block;
+  padding:0.5em;
+  text-align: center;
+  font-size:1.4em;
+}
+
 li>a:hover {
   color:white;
   text-decoration: none;
@@ -30,6 +40,25 @@ li>a:visited {
 .mainButton{
   text-decoration: none;
   font-size:1.8em;
+  color:white;
+}
+.week{
+  float:right;
+  position:relative;
+  margin-top:-2.5em;
+  margin-right:5em;
+  color:white;
+  font-family: Helvetica, Arial, Sans-serif;
+  font-weight: normal;
+}
+.weekButton{
+  text-decoration: none;
+  font-size:1.2em;
+  color:white;
+}
+
+.weekButton:visited {
+  text-decoration:none;
   color:white;
 }
 
@@ -48,6 +77,7 @@ nav {
   margin-top:-1em;
   
 }
+
   
   
 ul {
