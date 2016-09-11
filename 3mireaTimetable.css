@@ -193,6 +193,10 @@ li:hover {
   font-weight: lighter;
   font-size: 1.8em;
 }
+#firstRowCalendar{
+  height:1em;
+}
+
 
 .calendarMonth{
   font-weight: bold;
