@@ -41,15 +41,7 @@ li>a:visited {
   text-decoration: none;
   font-size:1.8em;
   color:white;
-}
-.week{
-  float:right;
-  position:relative;
-  margin-top:-2.5em;
-  margin-right:5em;
-  color:white;
-  font-family: Helvetica, Arial, Sans-serif;
-  font-weight: normal;
+
 }
 .weekButton{
   text-decoration: none;
@@ -61,6 +53,24 @@ li>a:visited {
   text-decoration:none;
   color:white;
 }
+.week{
+  float:right;
+  position:relative;
+  margin-top:-2.5em;
+  margin-right:22%;
+  color:white;
+  font-size:1.4em; 
+  font-family: Helvetica, Arial, Sans-serif;
+  font-weight: bolder;
+}
+#calendarIcon{
+  float:right;
+  position:relative;
+  margin-right:9%;
+  margin-top:-3.6em;
+  width:5em;
+}
+
 
 .mainButton:visited{
   text-decoration:none;
