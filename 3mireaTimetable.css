@@ -186,3 +186,34 @@ li:hover {
   font-size: 1.6em;
   margin-top:2em;
 }
+
+/*Свойства календаря*/
+#calendar{
+  font-family: Helvetica, Arial, Sans-serif;
+  font-weight: lighter;
+  font-size: 1.8em;
+}
+
+.calendarMonth{
+  font-weight: bold;
+}
+
+.calendarNotActive {
+  color:gray;
+}
+
+#calendarWeekEnd {
+  color:#c0392b;
+}
+
+td>a {
+  text-decoration:none;
+}
+
+td>a:visited {
+  text-decoration:none;
+  color:black;
+}
+.spanHeight{
+  height:2em;
+}
