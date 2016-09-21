@@ -181,10 +181,12 @@ li:hover {
 p.newsPage>a {
   text-decoration:none;
   color:black;
+  font-weight:bolder;
 }
 p.newsPage>a:visited {
   text-decoration:none;
   color:black;
+ 
 }
  h1.newsPage {
   padding:0.3em;
