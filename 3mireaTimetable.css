@@ -182,6 +182,7 @@ p.newsPage>a {
   text-decoration:none;
   color:black;
   font-weight:bolder;
+  font-size:0.7em;
 }
 p.newsPage>a:visited {
   text-decoration:none;
