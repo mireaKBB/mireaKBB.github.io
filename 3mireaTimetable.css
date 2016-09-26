@@ -201,6 +201,7 @@ p.newsPage>a:visited {
   width:3em;
   float:right;
   margin-right:8em;
+  margin-top:-1em;  
 }
 
 /*Свойства календаря*/
