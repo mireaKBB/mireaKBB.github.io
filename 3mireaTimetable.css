@@ -176,7 +176,7 @@ li:hover {
   p.newsPage {
   padding:1em;
   font-size:1.3em;
-  font-family: Helvetica, Arial, Sans-serif;
+  font-family:'Roboto', Sans-serif;
 }
 p.newsPage>a {
   text-decoration:none;
@@ -192,7 +192,7 @@ p.newsPage>a:visited {
  h1.newsPage {
   padding:0.3em;
   background-color:#A3E6C8;
-  font-family: Helvetica, Arial, Sans-serif;
+  font-family:'Roboto', Sans-serif;
   
   font-size: 1.6em;
   margin-top:2em;
