@@ -197,6 +197,11 @@ p.newsPage>a:visited {
   font-size: 1.6em;
   margin-top:2em;
 }
+#d_button{
+  width:3em;
+  float:right;
+  margin-right:8em;
+}
 
 /*Свойства календаря*/
 #calendar{
